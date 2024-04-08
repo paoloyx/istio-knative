@@ -1,0 +1,9 @@
+
+# Source: istio-stack/templates/istio-control-plane.yaml
+apiVersion: install.istio.io/v1alpha1
+kind: IstioOperator
+metadata:
+  name: istio-installation
+  namespace: istio-system
+spec:
+  tag: "1.17.8"
